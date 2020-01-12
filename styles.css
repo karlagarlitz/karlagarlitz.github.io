@@ -27,17 +27,15 @@ main {
   
 header, footer {
     font-family: 'Architects Daughter', sans-serif;
-    font-size: 15px;
-    line-height: 1.5em;
+    font-size: 20px;
     padding: 10px;
-    display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: left;
     background-color: #7EBDC3;
     color: #f2f4f3;
     border-radius: 15px;
+    margin: 1em 0;
    }  
 
 .profilepic {
