@@ -8,9 +8,17 @@ body {
     background-color: #f2f4f3;
    }
 
-h1, h2 {
-    color: #005bb7;
-    text-align: center;
+a {
+    color: #CC3363;
+   }
+
+footer a {
+  color: #694A38;
+}
+
+h1 {
+    color: #694A38;
+    text-align: left;
     padding: 10px;
     font-family: 'Luckiest Guy', Gadget, sans-serif;
     font-size: 2em;
@@ -31,14 +39,9 @@ header, footer {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    text-align: justify;
+    text-align: left;
+    background-color: #7EBDC3;
    }  
-   
-nav {
-    background-color: #040404;
-    padding: 1em;
-    margin-top: -208px;
-  }
 
 #profilepic {
     width: 250px;
@@ -46,7 +49,7 @@ nav {
     float: right;
     box-shadow: 3px 3px 3px black;
     position: relative;
-    border: 2px #440144;
+    border: 2px;
     top: 10px;
     left: 10px;
   }
