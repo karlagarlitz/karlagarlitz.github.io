@@ -13,11 +13,11 @@ a {
    }
 
 footer a {
-  color: #694A38;
+  color: #f2f4f3;
 }
 
 h1 {
-    color: #694A38;
+    color: #f2f4f3;
     text-align: left;
     padding: 10px;
     font-family: 'Luckiest Guy', Gadget, sans-serif;
@@ -27,13 +27,15 @@ h1 {
 
 p {
     padding: 10px;
-    color: #040404;
+    color: #f2f4f3;
     font-family: 'Didact Gothic', Helvetica, sans-serif;
     font-size: 1.35em;
     line-height: 1.5em;
   }
   
 header, footer {
+    font-family: 'Amatic SC', Helvetica, sans-serif;
+    font-size: 22px;
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
