@@ -1,12 +1,4 @@
-let daynames= [
-    "Sunday",
-    "Monday", 
-    "Tuesday", 
-    "Wednesday", 
-    "Thursday", 
-    "Friday", 
-    "Saturday", 
-    "Sunday"];
+let daynames= ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 let months= ["January", "February", "March", "April", "May","June","July","August","September","Obtober","November","December"];
 
@@ -18,6 +10,8 @@ let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
 
 document.getElementById("currentdate").textContent = fulldate;
 
-
-
-
+// ************ 
+function lastModified(){
+    var mod = document.lastModified;
+    document.getElementById("lastMod").innerHTML= mod;
+}
