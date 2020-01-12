@@ -6,12 +6,10 @@ let d = new Date();
 let dayName = daynames[d.getDate()];
 let monthName = months[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+let fulldate = monthName + " " + d.getDate() + ", " + year;
 
 document.getElementById("currentdate").textContent = fulldate;
 
 // ************ 
-function lastModified(){
-    var mod = document.lastModified;
-    document.getElementById("lastMod").innerHTML= mod;
-}
+    let lastModified = document.lastModified;
+    document.getElementById("updated").innerHTML= lastModified;
