@@ -36,12 +36,12 @@ header, footer {
     background-color: #7EBDC3;
     color: #f2f4f3;
     border-radius: 15px;
-    margin: 3em;
+    margin: 1em 0;
    }  
 
 .profilepic {
     width: 250px;
-    border-radius: 5px;
+    border-radius: 10px;
     float: right;
     box-shadow: 0px 0px 3px white;
     border: 2px;
