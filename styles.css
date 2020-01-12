@@ -3,7 +3,6 @@
 #content {
   max-width: 960px;
   margin: 0 auto;
-  background-color: #f2f4f3;
 }
 
 body {
@@ -19,6 +18,12 @@ a {
 footer a {
   color: #f2f4f3;
 }
+
+main {
+  font-family: 'Arvo', serif;
+  font-size: 15px;
+  margin: 3em;
+}
   
 header, footer {
     font-family: 'Architects Daughter', sans-serif;
@@ -32,6 +37,7 @@ header, footer {
     text-align: left;
     background-color: #7EBDC3;
     color: #f2f4f3;
+    border-radius: 15px;
    }  
 
 .profilepic {
