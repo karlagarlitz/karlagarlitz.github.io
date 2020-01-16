@@ -29,10 +29,10 @@ main {
 header, footer {
     font-family: 'Architects Daughter', sans-serif;
     font-size: 20px;
-    padding: .75em 1.2em .75em 5em;
+    padding: .5px;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: center;
     background-color: #7EBDC3;
     color: #f2f4f3;
     border-radius: 15px;
