@@ -10,6 +10,8 @@ let fulldate = monthName + " " + d.getDate() + ", " + year;
 
 document.getElementById("currentdate").textContent = fulldate;
 
+document.getElementById('currentyear').textContent = year;
+
 // ************ 
     let lastModified = document.lastModified;
     document.getElementById("updated").innerHTML= lastModified;
