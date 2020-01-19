@@ -27,6 +27,7 @@ a {
 
 .sec2 {
     background-color: #7ebdc0;
+    border-radius: 10px;
 }
 
 main {
@@ -39,21 +40,15 @@ header, footer {
     font-family: 'Architects Daughter', cursive;
     font-size: 20px;
     padding: .5px;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     background-color: #7EBDC3;
     color: #CC3363;
-    border-radius: 15px;
-    margin: 1em 0;
+    border-radius: 10px;
    }  
 
-.profilepic {
-    width: 250px;
+img {
+    width: 300px;
     border-radius: 10px;
-    float: right;
-    box-shadow: 0px 0px 3px white;
     border: 2px;
-    height: auto;
-    top: 10px;
+    margin: 10px 10px 10px 10px;
   }
