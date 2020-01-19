@@ -12,12 +12,21 @@ body {
     padding: 1em;
    }
 
+nav li {
+    display: inline-block;
+    padding: 3em;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
 a {
     color: #CC3363;
    }
 
-footer a {
-  color: #f2f4f3;
+.sec2 {
+    background-color: #7ebdc0;
 }
 
 main {
@@ -30,9 +39,9 @@ header, footer {
     font-family: 'Architects Daughter', cursive;
     font-size: 20px;
     padding: .5px;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #7EBDC3;
     color: #CC3363;
     border-radius: 15px;
