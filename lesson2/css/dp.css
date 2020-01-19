@@ -10,6 +10,7 @@ body {
     color: #694A38;
     margin: 3em;
     padding: 15px 15px;
+    text-align: center;
    }
 
 nav li {
@@ -53,6 +54,6 @@ img {
     border-radius: 10px;
     border: 2px;
     margin: 10px 10px 10px 10px;
-    align-items: center;
+    place-items: center;
     border: gray;
   }
