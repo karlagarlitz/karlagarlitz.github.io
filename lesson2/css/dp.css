@@ -21,7 +21,7 @@ nav li {
 nav a:hover {
     background-color: white;
     border-radius: 5px;
-    padding: 2em;
+    padding: 2px;
 }
 
 a {
