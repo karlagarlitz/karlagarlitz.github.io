@@ -3,6 +3,7 @@
 #content {
   max-width: 960px;
   margin: 0 auto;
+  width: 95%;
 }
 
 body {
@@ -56,4 +57,5 @@ img {
     margin: 10px 10px 10px 10px;
     place-items: center;
     border: gray;
+    border-style: solid;
   }
