@@ -14,7 +14,7 @@ body {
     text-align: center;
    }
 
-nav ul {
+nav li {
      padding-left: 175px;
      display: inline-block;
 }
