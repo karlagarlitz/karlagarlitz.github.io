@@ -14,11 +14,12 @@ body {
 
 nav li {
     display: inline-block;
-    padding: 3em;
+    padding: 1em;
 }
 
 nav a:hover {
     background-color: white;
+    border-radius: 5px;
 }
 
 a {
@@ -27,7 +28,8 @@ a {
 
 .sec2 {
     background-color: #7ebdc0;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding: 10px 10px;
 }
 
 main {
@@ -43,7 +45,7 @@ header, footer {
     text-align: center;
     background-color: #7EBDC3;
     color: #CC3363;
-    border-radius: 10px;
+    border-radius: 15px;
    }  
 
 img {
@@ -51,4 +53,5 @@ img {
     border-radius: 10px;
     border: 2px;
     margin: 10px 10px 10px 10px;
+    justify-content: center;
   }
