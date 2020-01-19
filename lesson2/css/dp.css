@@ -14,7 +14,7 @@ body {
     text-align: center;
    }
 
-nav li {
+nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
 }
@@ -22,7 +22,7 @@ nav li {
 nav a:hover {
     background-color: white;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
 }
 
 a {
