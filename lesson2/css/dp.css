@@ -15,7 +15,8 @@ body {
    }
 
 nav li {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
 }
 
 nav a:hover {
@@ -31,7 +32,7 @@ a {
 .sec2 {
     background-color: #7ebdc0;
     border-radius: 15px;
-    padding: .5px;
+    padding: 10px;
 }
 
 main {
