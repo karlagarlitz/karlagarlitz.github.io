@@ -19,10 +19,6 @@ nav li {
      padding-left: 175px;
 }
 
-nav a {
-    padding: 1em;
-}
-
 nav a:hover {
     background-color: white;
     border-radius: 5px;
