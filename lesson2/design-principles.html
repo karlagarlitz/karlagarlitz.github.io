@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="A web page which recognizes and identifies favorable design principles in three different sites.">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/dp.css">
     </head>
 
 <body id="content">
@@ -16,26 +16,54 @@
         <nav>
             <ul>
                 <li><a href="/index.html">HOME</a></li>
-                <li><a >Visual Hierarchy</a></li>
-                <li><a>Proximity</a></li>
-                <li><a >Alignment</a></li>
+                <li><a href="#vh">Visual Hierarchy</a></li>
+                <li><a href="#rep">Repetition</a></li>
+                <li><a href="#align">Alignment</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <div>
-                <img alt="familysearch" src="familysearch1.png">
+            <div class="leftcol">
+                <img alt="familysearch1" src="familysearch1.png">
+                <img alt="familysearch2" src="familysearch2.png">
+            </div>
+
+            <div class="rightcol">
+                <h1 id="vh">Visual Hierarchy</h1>
+                <p><a href="https://www.familysearch.org/en/">Family Search</a> is a great example of Visual Hierarchy. On a mobile browser, the first thing that is seen on the webpage is the image of the boy holding a picture of his ancestor. It makes you wonder who the boy in the image is, which then leads you to read the heading. After reading the attention getter, your eyes may go towards the "Create a FREE account" and so on. The Church of Jesus Christ of Latter-Day Saints did well by ranking their objectives based on their primeraly goal: to get the viewer to start on their family history. On the second image we're able to see similar elements ranked the same way, except that this time they're letting us know that they have an app for mobile devices to make it easier for the user. Visual Hierarchy has been created by mapping out certain cues, which includes the size of the images, the positioning and sizing of the heading, and the color for the sign-up button.</p>
             </div>
     </section>
+
+    <section>
+        <div class="leftcol">
+            <h1 id="rep">Repetition</h1>
+            <p>Repetition has been wisely used on the <a href="https://www.target.com/">Target</a> website to help their customers find what they're looking for. The two pictures shown on the right side have sections which are grouped by colors. The colors picked for each section makes the information organized by repeating the same colors. For example, the "all in motion" campaign uses gray and yellow, while the "different picking options" section uses the colors red, white, and dark gray. The repetition in color in each section brings everything together in a cohesive way and allows the user to feel comfortable while browsing the website. Color isn't the only repeated thing featured on the site, we also see repetition in typography and image sizes.</p>
+        </div>
+
+        <div class="rightcol">
+            <img alt="target1" src="target1.png">
+            <img alt="target2" src="target2.png">
+        </div>
+</section>
+
+<section>
+    <div class="leftcol">
+        <img alt="pinterest1" src="pinterest1.png">
+        <img alt="pinterest2" src="pinterest2.png">
+    </div>
+
+    <div class="rightcol">
+        <h1 id="align">Alignment</h1>
+        <p></p>
+    </div>
+</section>
     </main>
 
     <footer>
         <p>&copy; <span id = 'currentyear'></span> | Karla B. Garlitz | Kansas | <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
-        <br>Last Updated: <span id="updated"></span>
-        <br>Today's Date: <span id="currentdate"></span></p>
-        <script src="getdate.js"></script>
+        <script src="year.js"></script>
     </footer>
 </body>
 </html>
